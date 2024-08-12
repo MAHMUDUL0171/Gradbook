@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Sorting</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <h1>Student Sorting</h1>
+    <div id="inputForm">
+        <label for="studentID">Student ID:</label>
+        <input type="number" id="studentID" required>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+        <label for="grade">Grade:</label>
+        <input type="number" id="grade" required>
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <div id="sortOptions">
+        <label for="sortBy">Sort By:</label>
+        <select id="sortBy">
+            <option value="id">Student ID</option>
+            <option value="firstName">First Name</option>
+            <option value="lastName">Last Name</option>
+            <option value="grade">Grade</option>
+        </select>
+        <button onclick="sortStudents()">Sort Students</button>
+    </div>
+
+    <div id="studentList"></div>
+
+    <script src="student.js"></script>
+</body>
+</html>

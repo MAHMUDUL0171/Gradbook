@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#inputForm, #sortOptions {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#inputForm label, #sortOptions label {
+    margin-right: 10px;
+}
+
+#inputForm input, #sortOptions select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#studentList {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#studentList table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#studentList th, #studentList td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#studentList th {
+    background-color: #4CAF50;
+    color: white;
+}
